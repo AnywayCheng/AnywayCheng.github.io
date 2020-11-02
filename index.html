@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html style="background-color:black;">
+</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-   $(document).ready(function() {
-    $("#img").parent().css("background-color", "red");
+  $(document).ready(function() {
+    $("button").css("margin-right","20px");
+    $("button").css("margin-left", "30px");
+    $("button").css("margin-top", "20px");
   });
-   </script>
+</script>
+
 <head>
 <title>My first Website</title>
 </head>
@@ -37,36 +41,50 @@
       font-size:30px;
       text-align:center;
   }
-    .col1 {
-  float: left;
-  width: 12.5%;
-}
-    .col2 {
-  float: left;
-  width: 12.5%;
-}
-  
-      </style>
+</style>
+
 <h1>Hololive's Vtuber</h1>
 <p>Vtubers in Hololive</p>
 <img class="border" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/117167768_183869409794332_3822495024394444563_o.jpg?_nc_cat=109&_nc_sid=8024bb&_nc_ohc=ipLYAh2JB9QAX_Uke2W&_nc_ht=scontent-hkg4-1.xx&oh=c2cda1f21acb282f0b84b0051c1c9156&oe=5FAE0DC4"with="950" heigh="500">
-   <script>
-  $(document).ready(function() {
-  $("button").addClass("animated bounce");
-  });
-</script>
-      <h3>Hololive Generation</h3>
-      <div class="hologeneration">     
-       
-     <div class="row">
-   <div class="row"><div class="col1"><button class="btn btn-default target" id="holo0"><span style="font-size:20px;">#Hololive 0's</span></button></div></div>
-   <div class="row"><div class="col2"> <img src="https://www.1999.co.jp/itbig70/10704751b_m.jpg" width="200" heigh="250"></img></div></div></div>
-   <div class="row">
-   <div class="col1"> <button class="btn btn-default target" id="holo1"><span style="font-size:20px;">#Hololive 1st</span></button></div>
-   <div class="col2"><img src="https://livedoor.blogimg.jp/freedomduo/imgs/f/0/f0f067c4.png" width="200" heigh="250"></img></div></div>
+   
+ <h3>Hololive Generation</h3>
+ <div class="hologeneration">    
 
-    </div>
-   </div>
-  </div>
+<div class="container">
+
+<div class="col text-center">
+<div class="row">
+<button class="btn btn-default target " id="target0 "><span style="font-size:20px;">#Hololive 0st</span></button>
+<button class="btn btn-default target " id="target1 "><span style="font-size:20px;">#Hololive 1st</span></button>
+<button class="btn btn-default target " id="target2 "><span style="font-size:20px;">#Hololive 2st</span></button>
+</div>
+<div class="row">
+<img src="https://www.1999.co.jp/itbig70/10704751b_m.jpg" id="0" width="200" heigh="250"></img>
+<img src="https://livedoor.blogimg.jp/freedomduo/imgs/f/0/f0f067c4.png" id="1" width="200" heigh="250"></img>
+<img src="https://www.mustplay.in.th/static/thumb/2020/6/16/attach-1594897585506.jpg" id="2" width="200" heigh="250"></img>
+</div>
+
+<div class="col text-center">
+<div class="row">
+<button class="btn btn-default target " id="targetGM "><span style="font-size:20px;">#Hololive Gamers</span></button>
+</div>
+<div class="row">
+<img src="https://img.ruten.com.tw/s3/d77/a2e/qx010956/d/5f/ed/22037340908525_299.png" id="GM" width="200" heigh="250"></img>
+</div>
+
+
+<div class="col text-center">
+<div class="row">
+<button class="btn btn-default target " id="target3 "><span style="font-size:20px;">#Hololive 3st</span></button>
+<button class="btn btn-default target " id="target4 "><span style="font-size:20px;">#Hololive 4st</span></button>
+<button class="btn btn-default target " id="target5 "><span style="font-size:20px;">#Hololive 5st</span></button>
+</div>
+<div class="row">
+<img src="https://img.ruten.com.tw/s1/9/4f/35/22036301503285_218.png" id="3" width="200" heigh="250"></img>
+<img src="https://pbs.twimg.com/media/EgGviocVAAAl0Ao.png" id="4" width="200" heigh="250"></img>
+<img src="https://external-preview.redd.it/cK2nSJCD6QCnwIvWCFBC0zxYfoDEC0x4dJ-I5i7KVQ0.jpg?auto=webp&s=8e9ce3e931b89fcfbb67b0a12321162ebf007595" id="5" width="200" heigh="250"></img>
+</div>
+
+</div>
 </body>
 </html>
