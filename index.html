@@ -6,7 +6,11 @@
     $("button").css("margin-right","20px");
     $("button").css("margin-left", "30px");
     $("button").css("margin-top", "20px");
+    $("#container").css("color", "purple");
   });
+  $("button").click(function(){
+  $("p").slideToggle();
+});
 </script>
 
 <head>
@@ -55,8 +59,8 @@
 <h3>Hololive Generation</h3>
 <div class="hologeneration">    
 <h4>Click the botton to see the members in which generation</h4>
-<div class="container">
 
+<div class="container" id="container">
 <div class="col text-center">
 <div class="row">
 <button class="btn btn-default target " id="target0 "><span style="font-size:20px;">#Hololive 0st</span></button>
