@@ -6,14 +6,34 @@
     $("button").css("margin-right","20px");
     $("button").css("margin-left", "30px");
     $("button").css("margin-top", "20px");
-    $(".target:even").addClass("animated shake");
-    $("#0").hide();
+    
     $("#1").hide();
     $("#2").hide();
     $("#gm").hide();
     $("#3").hide();
     $("#4").hide();
     $("#5").hide();
+    $("#target0").click(function(){
+    $("#0").toggle();
+    });
+    $("#target1").click(function(){
+    $("#1").toggle();
+    });
+    $("#target2").click(function(){
+    $("#2").toggle();
+    });
+    $("#targetGM").click(function(){
+    $("#gm").toggle();
+    });
+    $("#target3").click(function(){
+    $("#3").toggle();
+    });
+    $("#target4").click(function(){
+    $("#4").toggle();
+    });
+    $("#target5").click(function(){
+    $("#5").toggle();
+    });
   });
 </script>
 
@@ -67,29 +87,29 @@
 <div class="container" id="container">
 <div class="col text-center">
 <div class="row">
-<button class="btn btn-default target " id="target0 "><span style="font-size:20px;">#Hololive 0st</span></button>
-<button class="btn btn-default target " id="target1 "><span style="font-size:20px;">#Hololive 1st</span></button>
-<button class="btn btn-default target " id="target2 "><span style="font-size:20px;">#Hololive 2st</span></button>
+<button class="btn btn-default" id="target0"><span style="font-size:20px;">#Hololive 0st</span></button>
+<button class="btn btn-default" id="target1"><span style="font-size:20px;">#Hololive 1st</span></button>
+<button class="btn btn-default" id="target2"><span style="font-size:20px;">#Hololive 2st</span></button>
 </div>
 
 <div class="row">
-<img id="0" src="https://img.ruten.com.tw/s2/0/58/b0/22026743414960_185.jpg">
+<div id="0"><img  src="https://img.ruten.com.tw/s2/0/58/b0/22026743414960_185.jpg"></div>
 <img id="1" src="https://img.ruten.com.tw/s1/f/f0/2f/22026743388207_797.jpg">
 <img id="2" src="https://pbs.twimg.com/media/EUbKq44UEAAVmo-.jpg"  width="1000" heigh="500">
 </div>
 
 <div class="col text-center">
 <div class="row">
-<button class="btn btn-default target " id="targetGM "><span style="font-size:20px;">#Hololive Gamers</span></button>
+<button class="btn btn-default" id="targetGM"><span style="font-size:20px;">#Hololive Gamers</span></button>
 <img id="gm" src="https://preview.redd.it/7jwirqudmu151.png?auto=webp&s=b46ae4a6eba77733ff2855b6b7a23e0effec2c7f" width="1000" heigh="500">
 </div>
 
 
 <div class="col text-center">
 <div class="row">
-<button class="btn btn-default target " id="target3 "><span style="font-size:20px;">#Hololive 3st</span></button>
-<button class="btn btn-default target " id="target4 "><span style="font-size:20px;">#Hololive 4st</span></button>
-<button class="btn btn-default target " id="target5 "><span style="font-size:20px;">#Hololive 5st</span></button>
+<button class="btn btn-default" id="target3"><span style="font-size:20px;">#Hololive 3st</span></button>
+<button class="btn btn-default" id="target4"><span style="font-size:20px;">#Hololive 4st</span></button>
+<button class="btn btn-default" id="target5"><span style="font-size:20px;">#Hololive 5st</span></button>
 </div>
 
 <div class="row">
